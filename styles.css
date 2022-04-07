@@ -1,0 +1,30 @@
+.row {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    background-color: aliceblue;
+    display: flexbox; 
+}
+h1 {
+    color: gray
+}
+
+.second-header{
+    color: gray
+}
+
+.group-text{
+    margin: 24px;
+    padding: 24px;
+    background-color: pink;
+}
+
+@media (max-width: 480px) {
+    body {
+        flex-direction: column;
+    }
+}
+
